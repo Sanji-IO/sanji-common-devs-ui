@@ -30,6 +30,9 @@
   },
   "homepage": "https://github.com/Sanji-IO/sanji-common-devs-ui#readme",
   "devDependencies": {
+    "semantic-release": "^4.3.5"
+  },
+  "dependencies": {
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     "babel-eslint": "^6.0.4",
