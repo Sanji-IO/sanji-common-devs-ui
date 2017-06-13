@@ -1,6 +1,6 @@
 {
   "name": "sanji-common-devs-ui",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "This repo includes common sanji development utilites",
   "main": "index.js",
   "config": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/Sanji-IO/sanji-common-devs-ui#readme",
   "devDependencies": {
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.6"
   },
   "dependencies": {
     "autoprefixer": "^6.7.7",
