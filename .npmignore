@@ -17,3 +17,10 @@ coverage
 *.tar
 *.tar.gz
 *.zip
+yarn.lock
+.editorconfig
+.gitattributes
+.gitignore
+.travis.yml
+.vcmrc
+*.md
