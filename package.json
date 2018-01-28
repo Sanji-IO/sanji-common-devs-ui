@@ -18,7 +18,9 @@
     "type": "git",
     "url": "https://github.com/Sanji-IO/sanji-common-devs-ui.git"
   },
-  "keywords": ["sanji"],
+  "keywords": [
+    "sanji"
+  ],
   "author": "Zack Yang",
   "license": "MIT",
   "bugs": {
@@ -38,6 +40,7 @@
     "babel-plugin-lodash": "^3.3.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "catw": "^1.0.1",
     "chai": "^4.1.2",
     "commitizen": "^2.9.6",
     "cross-env": "^5.1.3",
