@@ -9,7 +9,7 @@
     }
   },
   "scripts": {
-    "commitmsg": "validate-commit-msg",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "commit": "git-cz",
     "test": "echo \"Error: no test specified\"",
     "semantic-release": "semantic-release"
@@ -18,9 +18,7 @@
     "type": "git",
     "url": "https://github.com/Sanji-IO/sanji-common-devs-ui.git"
   },
-  "keywords": [
-    "sanji"
-  ],
+  "keywords": ["sanji"],
   "author": "Zack Yang",
   "license": "MIT",
   "bugs": {
@@ -31,6 +29,8 @@
     "semantic-release": "^12.2.4"
   },
   "dependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-conventional": "^6.1.0",
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
@@ -42,7 +42,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "catw": "^1.0.1",
-    "chai": "^4.1.2",
+    "clean-webpack-plugin": "^0.1.18",
     "commitizen": "^2.9.6",
     "cpy-cli": "^1.0.1",
     "cross-env": "^5.1.3",
@@ -60,19 +60,15 @@
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "husky": "^0.14.3",
-    "istanbul": "^0.4.5",
     "jest": "^22.1.4",
     "json-loader": "^0.5.7",
     "json-server": "^0.12.1",
     "lodash-webpack-plugin": "^0.11.4",
-    "mocha": "^5.0.0",
-    "mochawesome": "^3.0.2",
     "ng-cache-loader": "^0.0.26",
     "node-bourbon": "^4.2.8",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2",
     "ntl": "^1.2.0",
-    "opt-cli": "^1.6.0",
     "postcss-loader": "^2.0.10",
     "prettier": "^1.10.2",
     "raw-loader": "^0.5.1",
@@ -80,7 +76,6 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "url-loader": "^0.6.2",
-    "validate-commit-msg": "^2.14.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   }
