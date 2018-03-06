@@ -18,7 +18,9 @@
     "type": "git",
     "url": "https://github.com/Sanji-IO/sanji-common-devs-ui.git"
   },
-  "keywords": ["sanji"],
+  "keywords": [
+    "sanji"
+  ],
   "author": "Zack Yang",
   "license": "MIT",
   "bugs": {
@@ -71,6 +73,7 @@
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
+    "start-server-and-test": "^1.0.1",
     "style-loader": "^0.20.2",
     "url-loader": "^0.6.2",
     "webpack": "^4.0.1",
