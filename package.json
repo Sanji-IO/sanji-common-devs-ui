@@ -34,6 +34,7 @@
     "@types/angular-material": "^1.1.59",
     "@types/angular-mocks": "^1.5.11",
     "@types/angular-translate": "^2.15.2",
+    "@types/lodash": "^4.14.107",
     "@types/node": "^9.6.5",
     "@types/webpack-env": "^1.13.6",
     "@commitlint/cli": "^6.1.3",
