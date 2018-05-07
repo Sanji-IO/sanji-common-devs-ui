@@ -18,9 +18,7 @@
     "type": "git",
     "url": "https://github.com/Sanji-IO/sanji-common-devs-ui.git"
   },
-  "keywords": [
-    "sanji"
-  ],
+  "keywords": ["sanji"],
   "author": "Zack Yang",
   "license": "MIT",
   "bugs": {
@@ -36,6 +34,7 @@
     "@types/angular-material": "^1.1.59",
     "@types/angular-mocks": "^1.5.11",
     "@types/angular-translate": "^2.15.4",
+    "@types/jest": "^22.2.3",
     "@types/lodash": "^4.14.108",
     "@types/node": "^10.0.4",
     "@types/webpack-env": "^1.13.6",
