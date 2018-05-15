@@ -1,6 +1,6 @@
 {
   "name": "sanji-common-devs-ui",
-  "version": "12.4.3",
+  "version": "12.4.4",
   "description": "This repo includes common sanji development utilites",
   "main": "index.js",
   "config": {
