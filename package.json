@@ -1,6 +1,6 @@
 {
   "name": "sanji-common-devs-ui",
-  "version": "12.5.0",
+  "version": "13.0.0",
   "description": "This repo includes common sanji development utilites",
   "main": "index.js",
   "config": {
@@ -18,7 +18,9 @@
     "type": "git",
     "url": "https://github.com/Sanji-IO/sanji-common-devs-ui.git"
   },
-  "keywords": ["sanji"],
+  "keywords": [
+    "sanji"
+  ],
   "author": "Zack Yang",
   "license": "MIT",
   "bugs": {
